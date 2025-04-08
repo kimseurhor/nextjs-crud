@@ -1,7 +1,11 @@
-import Image from "next/image";
+import TopicList from "@/components/TopicList";
+
 
 export default function Home() {
   return (
-    <h1 className="text-blue-600 text-xl ml-3 ">hello</h1>
+  
+    <TopicList/>
+    
+  
   );
 }
